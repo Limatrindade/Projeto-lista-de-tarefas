@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do Javascript</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- começo do container -->
+    <div id="tasks__container">
+        <!-- container do cabeçalho -->
+        <div id="tasks__header">
+            <h2>salve a sua próxima tarefa:</h2>
+            <form action="" id="add__tasks--form">
+                <input type="text" id="tasks__title" placeholder="O que você vai fazer?">
+                <button type="submit" id="add__btn">
+                    <ion-icon name="add-outline"></ion-icon>
+                </button>
+            </form>
+        </div>
+        <!-- fim do container do cabeçalho -->
+        <!-- lista de tarefas -->
+        <div id="tasks__list--container">
+            <h2>Estas sãos as suas tarefas:</h2>
+            <ul id="tasks__list">
+                <li class="tasks__box template hide">
+                    <span class="tasks__title"></span>
+                    <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+                    <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+                </li>
+            </ul>
+        </div>
+        <!-- fim da lista de tarefas-->
+    </div>
+    <!-- fim do container -->
+    <script src="js/scripts.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<body>
+</html>
